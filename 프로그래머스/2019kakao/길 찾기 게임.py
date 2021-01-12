@@ -12,13 +12,11 @@ class Node:
 
 class Tree:
     def __init__(self):
-        self.root = None
         self.pre = list()
         self.post = list()
 
     def insert(self, node):
-        index = 0
-        level = 0
+        index, level = 0, 0
         for i, j in enumerate(node):
             if level < j.position[1]:
                 index = i
@@ -27,22 +25,14 @@ class Tree:
         if 0 <= index < len(node):
             node[index].left = self.insert(node[:index])
             node[index].right = self.insert(node[index + 1:])
-        self.root = node[index] if node else None
+        self.post.append(node[index].key) if node else None
         return node[index] if node else None
-
-    def postorder(self, node):
-        if node.left:
-            self.postorder(node.left)
-        if node.right:
-            self.postorder(node.right)
-        self.post.append(node.key)
 
 
 def solution(nodeinfo):
     node = list(sorted([Node(i + 1, j) for i, j in enumerate(nodeinfo)], key=lambda x: x.position))
     tree = Tree()
     tree.insert(node)
-    tree.postorder(tree.root)
     return [tree.pre, tree.post]
 
 
