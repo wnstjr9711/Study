@@ -27,7 +27,7 @@ def solution(board):
                     square[k].add((i, j))
         square[k].difference_update(v)
         for i, j in square[k]:  # 의존하는 블록
-            for key in map(lambda x: x[j], board[:i + 1]):
+            for key in map(lambda b: b[j], board[:i + 1]):
                 if key != 0 and key != k:
                     if k not in depend:
                         depend[k] = [key]
@@ -42,13 +42,9 @@ def dependEnable(k, d, depend, enable):
     if not enable[k]:
         return False
     for dk in d:
-        if dk not in depend and not enable[dk]:
+        if (dk not in depend and not enable[dk]) or (dk in depend and not dependEnable(dk, depend[dk], depend, enable)):
             enable[k] = False
             return False
-        if dk in depend:
-            if not dependEnable(dk, depend[dk], depend, enable):
-                enable[k] = False
-                return False
     return True
 
 
