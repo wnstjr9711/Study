@@ -46,8 +46,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
-  <component name="RunManager" selected="Python.n진수 게임">
-    <configuration name="파일명 정렬" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.셔틀버스">
+    <configuration name="추석 트래픽" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2018kakao" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -60,7 +60,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/파일명 정렬.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/추석 트래픽.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -91,6 +91,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="파일명 정렬" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="2018kakao" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/파일명 정렬.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="압축" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="2018kakao" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,6 +127,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/압축.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="셔틀버스" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="2018kakao" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/셔틀버스.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -203,11 +247,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.셔틀버스" />
+        <item itemvalue="Python.추석 트래픽" />
         <item itemvalue="Python.n진수 게임" />
         <item itemvalue="Python.파일명 정렬" />
         <item itemvalue="Python.압축" />
-        <item itemvalue="Python.방금그곡" />
-        <item itemvalue="Python.캐시" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +264,8 @@
       <option name="presentableId" value="Default" />
       <updated>1610761779500</updated>
       <workItem from="1610761780923" duration="24868000" />
-      <workItem from="1610930763700" duration="24855000" />
+      <workItem from="1610930763700" duration="25459000" />
+      <workItem from="1611015033585" duration="17714000" />
     </task>
     <servers />
   </component>
@@ -240,38 +285,38 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1610978568177">
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom" timestamp="1611055901658">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1610978568177" />
-    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1610978568177">
+    <state width="2517" height="401" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1611055901658" />
+    <state width="2517" height="401" key="GridCell.Tab.0.center" timestamp="1611055901658">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1610978568177" />
-    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1610978568177">
+    <state width="2517" height="401" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1611055901658" />
+    <state width="2517" height="401" key="GridCell.Tab.0.left" timestamp="1611055901658">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1610978568177" />
-    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1610978568177">
+    <state width="2517" height="401" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1611055901658" />
+    <state width="2517" height="401" key="GridCell.Tab.0.right" timestamp="1611055901658">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1610978568177" />
-    <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1610935346974">
+    <state width="2517" height="401" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1611055901658" />
+    <state width="2517" height="492" key="GridCell.Tab.1.bottom" timestamp="1610979746292">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="492" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1610935346974" />
-    <state width="2517" height="492" key="GridCell.Tab.1.center" timestamp="1610935346973">
+    <state width="2517" height="492" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1610979746292" />
+    <state width="2517" height="492" key="GridCell.Tab.1.center" timestamp="1610979746292">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="492" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1610935346973" />
-    <state width="2517" height="492" key="GridCell.Tab.1.left" timestamp="1610935346973">
+    <state width="2517" height="492" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1610979746292" />
+    <state width="2517" height="492" key="GridCell.Tab.1.left" timestamp="1610979746292">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="492" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1610935346973" />
-    <state width="2517" height="492" key="GridCell.Tab.1.right" timestamp="1610935346974">
+    <state width="2517" height="492" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1610979746292" />
+    <state width="2517" height="492" key="GridCell.Tab.1.right" timestamp="1610979746292">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state width="2517" height="492" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1610935346974" />
+    <state width="2517" height="492" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1610979746292" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -286,8 +331,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/2018kakao$4.coverage" NAME="프렌즈4블록 Coverage Results" MODIFIED="1610893103731" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/2018kakao$_.coverage" NAME="파일명 정렬 Coverage Results" MODIFIED="1610978557313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/2018kakao$.coverage" NAME="압축 Coverage Results" MODIFIED="1610966187781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/2018kakao$n_.coverage" NAME="n진수 게임 Coverage Results" MODIFIED="1610978568171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/2018kakao$_.coverage" NAME="추석 트래픽 Coverage Results" MODIFIED="1611033950898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/2018kakao$n_.coverage" NAME="n진수 게임 Coverage Results" MODIFIED="1611018524235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/2018kakao$.coverage" NAME="셔틀버스 Coverage Results" MODIFIED="1611055901652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
