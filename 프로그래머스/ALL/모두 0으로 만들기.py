@@ -1,21 +1,37 @@
+import sys
+sys.setrecursionlimit(500000)
+
+
+class Graph:
+    def __init__(self, a, edges):
+        self.a = a
+        self.edge = list(list() for i in range(len(a)))
+        for i in edges:
+            self.edge[i[0]].append(i[1])
+            self.edge[i[1]].append(i[0])
+        self.visited = [False for i in range(len(a))]
+        self.order = list()
+
+    def dfs(self, v):
+        if self.visited[v]:
+            return
+        self.visited[v] = True
+        for i in self.edge[v]:
+            if not self.visited[i]:
+                self.order.append((v, i))
+                self.dfs(i)
+
+
 def solution(a, edges):
     if sum(a) != 0:
         return -1
     answer = 0
-    cnt = {i: list() for i in range(len(a))}
-    for i in edges:
-        cnt[i[0]].append(i[1])
-        cnt[i[1]].append(i[0])
-    while cnt:
-        order = list(sorted(cnt.items(), key=lambda x: len(x[1])))
-        this, target = order.pop(0)
-        cnt.pop(this)
-        cnt[target[0]].remove(this)
-        if not cnt[target[0]]:
-            cnt.clear()
-        a[target[0]] += a[this]
-        answer += abs(a[this])
-        a[this] = 0
+    graph = Graph(a, edges)
+    for i in range(len(a)):
+        graph.dfs(i)
+    for i in reversed(graph.order):
+        a[i[0]] += a[i[1]]
+        answer += abs(a[i[1]])
     return answer
 
 
